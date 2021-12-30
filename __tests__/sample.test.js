@@ -14,6 +14,7 @@ describe('Same test 101' , () => {
 
     it('adds two number' , () => {
         expect(add(1,3)).toBeGreaterThanOrEqual(4)
+        expect(add(1,3)).toBeCloseTo(3.999999)
     });
 
     it('adds two strings',() => {
